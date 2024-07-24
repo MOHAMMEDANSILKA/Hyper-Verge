@@ -1,77 +1,70 @@
-# Hyper-Verge
-Chrome extension for multiple features like notice board and pomodorotimer
-Project Overview
-This project is a Pomodoro Timer application built with React. It includes a beautiful spline design integrated into the left section of the page, maintaining a sleek and modern dark theme. The right section of the page features the functional Pomodoro Timer.
+# Getting Started with Create React App
 
-Features
-Pomodoro Timer: A simple and effective timer to help you manage your work sessions.
-Spline Integration: A visually appealing spline design integrated into the application.
-Responsive Design: The layout adjusts for different screen sizes.
-Dark Mode: Consistent dark mode theme throughout the application.
-Technologies Used
-React
-Spline
-CSS
-Create React App
-Installation and Setup
-To get started with the project, follow these steps:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Prerequisites
-Node.js (>=14.x.x)
-npm (>=6.x.x)
-Installation
-Clone the repository:
+## Available Scripts
 
-bash
-Copy code
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-Install dependencies:
+In the project directory, you can run:
 
-bash
-Copy code
-npm install
-Run the application:
+### `npm start`
 
-bash
-Copy code
-npm start
-Build the application for production:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-bash
-Copy code
-npm run build
-File Structure
-src
-components
-PomodoroTimer.js: The Pomodoro Timer component.
-SparklesPreview.js: The Spline integration component.
-App.js: Main application component.
-App.css: CSS for styling the application.
-public
-index.html: Main HTML file.
-manifest.json: Configuration for the Chrome extension.
-package.json: Project metadata and dependencies.
-Usage
-Pomodoro Timer
-The Pomodoro Timer allows you to start a timer for 25 minutes of focused work. You can start and reset the timer using the buttons provided.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Spline Integration
-The left section of the application includes a spline design for a visually engaging experience.
+### `npm test`
 
-Chrome Extension
-This application can also be used as a Chrome extension to transform the new tab page with a dark mode design and widgets.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Setup
-Build the project:
+### `npm run build`
 
-bash
-Copy code
-npm run build
-Load the extension in Chrome:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Open Chrome and navigate to chrome://extensions/.
-Enable "Developer mode" using the toggle in the top right.
-Click "Load unpacked" and select the build folder from your project directory.
-Contributing
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

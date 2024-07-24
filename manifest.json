@@ -1,0 +1,17 @@
+{
+    "name": "Dark chrome",
+    "manifest_version": 3,
+    "version": "1.0",
+    "description": "Transform the new tab page with a dark mode design, widgets, and a custom website container.",
+    "permissions": [
+      "storage",
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "chrome_url_overrides": {
+      "newtab": "newtab.html"
+    }
+  }
+  
